@@ -35,8 +35,8 @@ var gulp = require('gulp'),
 
 gulp.task('default', ['help']);
 
-gulp.task('heroku:production', ['build'], function(){
-    
+gulp.task('heroku:', ['build'], function(){
+
 });
 
 module.exports = gulp;
